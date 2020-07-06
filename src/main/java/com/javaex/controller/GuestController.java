@@ -26,7 +26,7 @@ public class GuestController {
 		
 		model.addAttribute("gList", gList);
 		
-		return "/WEB-INF/views/addList.jsp";
+		return "addList";
 		
 	}
 	
@@ -55,7 +55,7 @@ public class GuestController {
 		System.out.println("/gb/deleteForm");
 		model.addAttribute("no", no);
 		
-		return "/WEB-INF/views/deleteForm.jsp";
+		return "deleteForm";
 	}
 
 }
