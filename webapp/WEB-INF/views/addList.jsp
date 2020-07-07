@@ -32,7 +32,7 @@
 			<tr>
 				<td>${vo.no }</td>
 				<td>${vo.name }</td>
-				<td>${vo.date }</td>
+				<td>${vo.guestdate }</td>
 				<td><a href="/gb3/gb/deleteForm?no=${vo.no }">삭제</a></td>
 			</tr>
 			<tr>

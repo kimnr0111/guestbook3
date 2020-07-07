@@ -10,7 +10,7 @@
 <body>
 	<form action="/gb3/gb/delete" method="get">
 	비밀번호:<input type="password" name="password">
-	<input type="hidden" name="no" value=${no }>
+	<input type="text" name="no" value=${no }>
 	<button type="submit">확인</button><br>
 	<a href="/gb3/gb/list">메인으로 돌아가기</a>
 	</form>
